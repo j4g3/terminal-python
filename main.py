@@ -6,9 +6,6 @@ files.close
 
 #desktop of user
 
-alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','-','--']
-
-
 user_info = os.path.expanduser('~')
 
 location_default = os.path.expanduser('~\\Desktop')
