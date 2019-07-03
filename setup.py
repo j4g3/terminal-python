@@ -1,6 +1,7 @@
 
 #Username
 usuario = input('Username UNIX: ')
+
 #Passing the user name to a file
 files = open('dados.dll', 'w')
 data = []

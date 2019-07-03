@@ -57,7 +57,16 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 
 '''
+command_list = '''
+List of Commands
 
+wget missing URL
+git help -g' list available subcommands
+cat list content in file
+cd browse directories
+ls listing files
+clear clean terminal
+'''
 
 
 while True:
@@ -117,3 +126,9 @@ while True:
             os.system(command)
         elif command == '':
             pass
+        elif command == 'help' or command == 'commands':
+            print(command_list)
+        elif(command.count('wget ')):
+            print(os.getcwd())
+        elif(command == 'pwd'):
+            print(location)
